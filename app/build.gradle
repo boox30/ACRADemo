@@ -25,4 +25,16 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    // ACRA crash report
+    // Choose sender
+//    implementation "ch.acra:acra-http:$rootProject.acraVersion"
+      implementation "ch.acra:acra-mail:$rootProject.acraVersion"
+//    implementation "ch.acra:acra-core:$rootProject.acraVersion" // CUSTOM
+
+    // Choose interaction
+//    implementation "ch.acra:acra-dialog:$rootProject.acraVersion"
+//    implementation "ch.acra:acra-notification:$rootProject.acraVersion"
+//    implementation "ch.acra:acra-toast:$rootProject.acraVersion"
+
 }

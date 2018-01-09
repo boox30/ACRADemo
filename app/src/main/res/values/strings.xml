@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ACRADemo</string>
+    <string name="send_report">send_report</string>
+    <string name="crash_report">crash_report</string>
 </resources>

@@ -2,7 +2,12 @@
 <manifest package="com.onyx.android.acrademo"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!--ACRA-->
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
